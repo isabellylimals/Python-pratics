@@ -1,5 +1,5 @@
-n1=int (input('digite o primerio numero:'))
-n2=int (input('digite o segundo numero:'))
+n1=int (input('Enter with a first number'))
+n2=int (input('Enter with a second number:'))
 s=n1+n2
 
-print(' a soma entre{} e {} vale {}'.format(n1,n2,s))
+print('The sum between {} and {} is: {}'.format(n1,n2,s))
