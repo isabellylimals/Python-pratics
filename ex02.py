@@ -1,4 +1,4 @@
-n=input('Digite algo')
+n=input('"Type something"')
 print(type(n))
 print(n.isalpha())
 print(n.isalnum())

@@ -1,4 +1,5 @@
-dia=input ('qual o dia que voce nasceu?')
-mes=input ('e o mes?')
-ano= input('e o ano?')
-print('sua data de nascimento eh:', dia + '/'+ mes + '/' +ano)
+# This code asks for the user's birth date and prints it in the format DD/MM/YYYY
+day = input('What day were you born? ')
+month = input('And the month? ')
+year = input('And the year? ')
+print('Your birth date is: ' + day + '/' + month + '/' + year)
