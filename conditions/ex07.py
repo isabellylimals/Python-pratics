@@ -1,10 +1,8 @@
 #aumento de salario
-salario=float(input('Digite qual seu salario:'))
-if salario<=1250.0:
-    aumento= (salario*15)/100
-    salario_novo= salario+aumento
-    print('Seu salario de {}R$ teve um aumento de {}R$ e ficou {}R$.'.format(salario,aumento,salario_novo))
+salary = float(input('Enter your salary: '))
+if salary <= 1250.0:
+    increase = (salary * 15) / 100
 else:
-    aumento= (salario*10)/100
-    salario_novo= salario+aumento
-    print('Seu salario de {}R$ teve um aumento de {}R$ e ficou {}R$.'.format(salario,aumento,salario_novo))
+    increase = (salary * 10) / 100
+new_salary = salary + increase
+print('Your salary of {}R$ has increased by {}R$ and is now {}R$.'.format(salary, increase, new_salary))

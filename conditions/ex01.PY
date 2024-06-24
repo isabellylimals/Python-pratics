@@ -1,9 +1,11 @@
 import random
-#Jogo simples de adivinhação :D
-num= random.randint(0,5)
-n_escolhido= int (input('Qual numero de 0 a 5 voce acha que o computador escolheu?'))
-if n_escolhido==num:
-    print('Parabéns você acertou!!')
+
+num = random.randint(0, 5)
+chosen_number = int(input('Which number from 0 to 5 do you think the computer chose? '))
+
+if chosen_number == num:
+    print('Congratulations, you got it right!!')
 else:
-    print('Voce errou :( ')
-print("FIM DE JOGO, ESPERO QUE TENHA SE DIVERTIDO :D")
+    print('You missed it :( ')
+    
+print("END OF GAME, HOPE YOU HAD FUN :D")

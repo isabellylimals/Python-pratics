@@ -1,8 +1,8 @@
 #custo de viagem
-km= float(input('Qual a distancia da viagem?'))
-if km<=200.0:
-    custo= 0.50*km
-    print("O custo da viagem ficou de: {}R$".format(custo))
+km = float(input('What is the distance of the trip? '))
+if km <= 200.0:
+    cost = 0.50 * km
+    print("The cost of the trip is: {}R$".format(cost))
 else:
-    custo= km*0.45
-    print('O custo da viagem ficou de: {}R$'.format(custo))
+    cost = km * 0.45
+    print('The cost of the trip is: {}R$'.format(cost))

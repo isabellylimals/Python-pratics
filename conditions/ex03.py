@@ -1,7 +1,6 @@
 #Par ou impar
-numero=int(input('Digite um numero:'))
-if numero%2==0:
-    print('O numero {} eh par.'.format(numero))
+number = int(input('Enter a number: '))
+if number % 2 == 0:
+    print('The number {} is even.'.format(number))
 else:
-    print('O numero {} eh impar.'.format(numero))
- 
+    print('The number {} is odd.'.format(number))

@@ -1,5 +1,5 @@
 #verificar se existe a letra 's' na primeira palavra
-cidade=str(input('Em que cidade voce nasceu?'))
-cidade.strip()
-print(cidade.count('S', 's'))
-print(cidade[:1]== 's' 'S')  
+city = str(input('Which city were you born in? '))
+city.strip()
+print(city.lower().count('s'))
+print(city[:1].lower() == 's')

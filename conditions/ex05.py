@@ -1,6 +1,6 @@
 #ano bissexto
-ano= int(input('Digite o ano que deseja analisar:'))
-if ano%400==0:
-    print('O ano {} eh bissexto'.format(ano))
+year = int(input('Enter the year you want to analyze: '))
+if year % 400 == 0:
+    print('The year {} is a leap year.'.format(year))
 else:
-    print('O ano {} nao eh bissexto.'.format(ano))
+    print('The year {} is not a leap year.'.format(year))
