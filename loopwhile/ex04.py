@@ -1,13 +1,12 @@
 number = int(input('Enter a number to calculate its factorial: '))
-while number != 0:
-    factorial = 1
-    print('{}! = '.format(number), end='')
-    for i in range(number, 0, -1):
-        factorial *= i
-        if i > 1:
-            print('{} x '.format(i), end='')
-        else:
-            print('1 = {}'.format(factorial))
-    break
+print('{}! = '.format(number), end='')
+count=number
+factorial=1
 
+while count> 0:
+    print('{} x '.format(count), end='')
+    print('' if count>1 else '=', end= '')
+    factorial=factorial*count
+    count= count-1
+print('{}'.format(factorial))
 print('Exiting the program...')
