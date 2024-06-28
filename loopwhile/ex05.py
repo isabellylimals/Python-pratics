@@ -1,4 +1,4 @@
-#Refaça o DESAFIO 51, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while.
+
 count = 1
 print('=== 10 terms of an AP ===')
 first_term = int(input('Enter the first term: '))
