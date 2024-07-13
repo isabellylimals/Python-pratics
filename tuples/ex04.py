@@ -11,5 +11,9 @@ for pos, i in enumerate(var):
         print(f'The number 3 is in position {position}')
     else:
         position=9
+    if i%2==0:
+        var= [i]
+        print(f'The numbers pars is {var}')
 if position==9:
     print('The number 3 is not present in the entered numbers')
+    
