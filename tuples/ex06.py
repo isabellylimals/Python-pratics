@@ -4,9 +4,9 @@ vowels = 'aeiouAEIOU'
 
 for word in words:
     if isinstance(word, str):
-        vowels_in_word = []
+        vowels_in_word = ()
         for letter in word:
             if letter in vowels and letter not in vowels_in_word:
-                vowels_in_word.append(letter)
+                vowels_in_word += (letter,)
         if vowels_in_word:
             print(f'The word {word} has vowels: {", ".join(vowels_in_word)}')

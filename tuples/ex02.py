@@ -1,7 +1,7 @@
 brasileirao = (
     ('Flamengo', 1),
     ('Botafogo', 2),
-    ('Palmeiras', 3),
+    ('Palmeiras',3),
     ('São Paulo', 4),
     ('Bahia', 5),
     ('Athletico-PR', 6),
